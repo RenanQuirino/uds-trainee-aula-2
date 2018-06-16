@@ -24,8 +24,8 @@ public class Controller {
         informacoes.stream().forEach((item)->{
             System.out.println(item);
         });
-        Macaco prego = new Macaco();
-        prego.andar();
-        prego.comerBanana();
+        Macaco macaco = new Macaco();
+        macaco.andar();
+        macaco.comerBanana();
     }
 }
